@@ -1,0 +1,25 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">STT</th>
+      <th scope="col">Name</th>
+      <th scope="col">Price</th>
+      <th scope="col">Image</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody *ngIf="product && product.length">
+    <tr *ngFor="let item of product,index as i">
+      <th scope="row">{{i+1}}</th>
+      <td>{{item.name}}</td>
+      <td>{{item.price}}</td>
+      <td><img style="width: 300px ; height: 300px;" src={{item.img}} alt=""></td>
+      <td>
+        <button type="button" class="btn btn-danger mx-2"><a style="color: aliceblue; text-decoration: none;"
+            routerLink="/update/{{item.id}}">Update</a></button>
+        <button type="button" class="btn btn-danger" (click)="onDelete(item.id)">Delete</button>
+      </td>
+    </tr>
+
+  </tbody>
+</table>

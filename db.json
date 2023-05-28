@@ -1,0 +1,34 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Hoa Hong Do",
+      "price": 400000,
+      "img": "https://hoahongsaigon.com/wp-content/uploads/2020/04/11-hoa-hong-co-hai-phong.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Hoa Hong Nhat",
+      "price": 600000,
+      "img": "https://vuonhoaviet.vn/wp-content/uploads/2017/09/105.-Hoa-h%E1%BB%93ng-ngo%E1%BA%A1i-James-Galway.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hoa Hong Trang",
+      "price": 500000,
+      "img": "https://hoabamien.com/wp-content/uploads/2020/01/hoa-hong-trang-dep-1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Hoa Huong Duong",
+      "price": "5000000",
+      "img": "https://i.pinimg.com/1200x/7f/48/6b/7f486b37775ac9235749f52a341e8768.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Hoa Cam Tu Cau",
+      "price": "700000",
+      "img": "https://caycanhxanh.vn/wp-content/uploads/2022/02/hoa-cam-tu-cau-dep-tuoi.jpg"
+    }
+  ]
+}
